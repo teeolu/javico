@@ -210,7 +210,7 @@ const HomePage: React.FC<IProps> = ({ onSetNotificationSettings }) => {
         }}
       >
         <NavBar />
-        <Box pt={20} pb={10}>
+        <Box pt={20} pb={15}>
           <Container maxWidth="md">
             {currentUser?.username
               ? userProfileInformation
